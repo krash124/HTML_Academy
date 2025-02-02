@@ -23,12 +23,14 @@
         <svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M19.0257 17.05L15.3152 13.35C16.318 12.05 17.02 10.35 17.02 8.44995C17.02 4.04995 13.4098 0.449951 8.99732 0.449951C4.58483 0.449951 0.974609 4.14995 0.974609 8.54995C0.974609 12.95 4.58483 16.55 8.99732 16.55C10.8024 16.55 12.5072 15.95 13.9112 14.85L17.6217 18.55L19.0257 17.05ZM8.99732 14.55C5.68795 14.55 2.98029 11.85 2.98029 8.54995C2.98029 5.24995 5.68795 2.54995 8.99732 2.54995C12.3067 2.54995 15.0143 5.24995 15.0143 8.54995C15.0143 11.85 12.3067 14.55 8.99732 14.55Z" fill="black"/>
         </svg>
+        <span class="visually-hidden">Поиск</span>
       </button>
 
       <a href="#" class="main-header_menu_wish-list">
         <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.44382 17C9.14296 17 8.84211 16.9 8.64155 16.6C3.22622 10.5 1.92253 9.1 1.62168 8.7C0.91969 7.8 0.518555 6.6 0.518555 5.4C0.518555 2.4 2.92537 0 6.03416 0C7.33785 0 8.54126 0.5 9.5441 1.3C10.5469 0.5 11.8506 0 13.054 0C16.0625 0 18.5696 2.4 18.5696 5.4C18.5696 6.7 18.0682 7.9 17.266 8.8L10.2461 16.7C10.0455 16.9 9.84495 17 9.44382 17ZM3.42679 7.5C3.72764 7.9 6.93672 11.5 9.5441 14.4L15.7617 7.4C16.2631 6.9 16.4637 6.2 16.4637 5.4C16.4637 3.6 14.9594 2.1 13.1543 2.1C12.1515 2.1 11.1486 2.6 10.4467 3.4C10.1458 3.7 9.84495 3.8 9.5441 3.8C9.24325 3.8 8.9424 3.6 8.74183 3.4C8.03984 2.6 7.037 2.1 6.03416 2.1C4.22906 2.1 2.7248 3.6 2.7248 5.4C2.62452 6.3 3.02565 7 3.42679 7.5C3.3265 7.5 3.3265 7.5 3.42679 7.5Z" fill="black"/>
-        </svg> 
+        </svg>
+        <span class="visually-hidden">Список желаний</span>
       </a>
 
       <a href="#" class="main-header_menu_lets-go">
@@ -40,6 +42,8 @@
   </header>
 
   <main class="main">
+
+    <h1 class="visually-hidden">Добро пожаловать в Седона</h1>
 
     <section class="main_first-screen">
 
@@ -71,17 +75,17 @@
 
     <section class="main_advantages">
 
-      <ul class="advantages_list">
+      <ol class="advantages_list">
 
         <li class="advantages_list_item list_item_#1">
-          <h3>Настоящий городок</h3>
-          <p>— №1 —</p>
-          <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img src="" alt="Фото с домом">
+          <h3 class="advantages_list_item_title">Настоящий городок</h3>
+          <p class="advantages_list_item_num">— №1 —</p>
+          <p class="advantages_list_item_text">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          <img class="advantages_list_item_img" src="#" alt="Фото с домом">
         </li>
 
-        <ol class="advantages_num-list">
-          <li class="advantages_num-list_item num-list_item_house">
+        <ul class="advantages_service-list">
+          <li class="advantages_service-list_item service-list_item_house">
 
             <svg width="75" height="72" viewBox="0 0 75 72" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M29.7 65H45.7V41.2H29.7C29.7 41.2 29.7 65 29.7 65ZM32.5999 44.0999H42.7V62.0999H32.5999V44.0999Z" fill="#81B3D2"/>
@@ -97,13 +101,13 @@
               <path d="M57.8999 47.2H54.8999V51.0999H57.8999V47.2Z" fill="#81B3D2"/>
             </svg>
               
-            <h3>Жильё</h3>
+            <h3 class="advantages_service-list_item_title">Жильё</h3>
   
-            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            <p class="advantages_service-list_item_text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
   
           </li>
   
-          <li class="advantages_num-list_item num-list_item_food">
+          <li class="advantages_service-list_item service-list_item_food">
   
             <svg width="74" height="70" viewBox="0 0 74 70" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M69.9 46.7H59.3H14.6H4.1C1.8 46.7 0 48.6 0 51V54.5C0 56.9 1.9 58.7999 4.1 58.7999H5V59.9C5 65.4 9.3 70 14.6 70H59.2C64.5 70 68.8 65.5 68.8 59.9V58.7999H69.7C72 58.7999 73.8 56.9 73.8 54.5V51C74 48.7 72.1 46.7 69.9 46.7ZM66 59.9C66 63.8 63 66.9 59.3 66.9H14.6C10.9 66.9 7.9 63.7 7.9 59.9V58.7999H66V59.9ZM71.1 54.5C71.1 55.2 70.5 55.7999 69.9 55.7999H68.9H66H8H5H4C3.3 55.7999 2.8 55.2 2.8 54.5V51C2.8 50.3 3.4 49.7 4 49.7H7.7H14.6H59.2H66.1H69.8C70.5 49.7 71 50.3 71 51C71.1 51 71.1 54.5 71.1 54.5Z" fill="#81B3D2"/>
@@ -114,61 +118,61 @@
               <path d="M44.7001 12.2C45.7494 12.2 46.6 11.3045 46.6 10.2C46.6 9.09538 45.7494 8.19995 44.7001 8.19995C43.6507 8.19995 42.8 9.09538 42.8 10.2C42.8 11.3045 43.6507 12.2 44.7001 12.2Z" fill="#81B3D2"/>
             </svg>
               
-            <h3>Еда</h3>
+            <h3 class="advantages_service-list_item_title">Еда</h3>
   
-            <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <p class="advantages_service-list_item_text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
             
           </li>
-          <li class="advantages_num-list_item num-list_item_gift">
+          <li class="advantages_service-list_item service-list_item_gift">
   
             <svg width="64" height="76" viewBox="0 0 64 76" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M61.1 22.5H61H36.3C50.1 15.6 51.2 11.2 50.7 8.79997C49.5 4.79997 45 1.79997 40.7 3.39997C35.1 5.49997 33.6 13.8 32.1 19.8C30.1 13.7 28.3 5.99997 23.9 2.09997C22.6 0.999966 20.8 -0.200034 18.1 0.0999663C14.1 0.499966 8.3 5.49997 10.6 11.1C12.9 16.5 20.3 19.9 25.2 22.6H3.2H2.9C1.3 22.6 0 23.9 0 25.5V36.8C0 38.4 1.3 39.7 2.9 39.7H3.2V73V75.4V76H61V75.5V73V39.6H61.1C62.7 39.6 64 38.3 64 36.7V25.4C64 23.8 62.7 22.5 61.1 22.5ZM42.4 5.89997C44.5 5.59997 47.4 7.19997 47.7 9.09997C48.1 11.9 44.3 14.4 42.6 15.5C40.1 17.2 37.7 18.1 35.3 19.6C36.2 15.9 37.8 6.59997 42.4 5.89997ZM19.5 15.9C17.3 14.4 13 11.5 13.1 8.09997C13.2 4.49997 18.8 1.49997 21.9 4.19997C25.8 7.59997 27.6 15.3 29 20.8C25.8 19.3 22.7 18 19.5 15.9ZM25.5 73H6.1V39.6H25.5V73ZM25.5 36.5H3V25.5H25.5V36.5ZM35.7 36.5V39.5V73H28.5V39.6V36.6V25.6H35.7V36.5ZM58 73H38.6V39.6H58V73ZM60.9 36.5H38.6V25.5H60.9V36.5Z" fill="#81B3D2"/>
             </svg>
               
-            <h3>Сувениры</h3>
+            <h3 class="advantages_service-list_item_title">Сувениры</h3>
   
-            <p>Не только китайского, но и настоящего местного производства!</p>
+            <p class="advantages_service-list_item_text">Не только китайского, но и настоящего местного производства!</p>
   
           </li>
-        </ol>
+        </ul>
 
         <li class="advantages_list_item list_item_#2">
 
-          <img src="" alt="Мост дьявола">
-          <h3>Там есть мост дьявола</h3>
+          <img class="advantages_list_item_img" src="" alt="Мост дьявола">
+          <h3 class="advantages_list_item_title">Там есть мост дьявола</h3>
 
-          <p>— №2 —</p>
-          <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          <p class="advantages_list_item_number">— №2 —</p>
+          <p class="advantages_list_item_text">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
 
         </li>
 
         <li class="advantages_list_item list_item_#3">
 
-          <h3>Небольшая площадь</h3>
+          <h3 class="advantages_list_item_title">Небольшая площадь</h3>
 
-          <p>— №3 —</p>
-          <p>Все достопримечательности находятся очень близко</p>
+          <p class="advantages_list_item_num">— №3 —</p>
+          <p class="advantages_list_item_text">Все достопримечательности находятся очень близко</p>
 
         </li>
 
         <li class="advantages_list_item list_item_#4">
 
-          <h3>Красивая дорога</h3>
+          <h3 class="advantages_list_item_title">Красивая дорога</h3>
 
-          <p>— №4 —</p>
-          <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          <p class="advantages_list_item_num">— №4 —</p>
+          <p class="advantages_list_item_text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 
         </li>
 
         <li class="advantages_list_item list_item_#5">
 
-          <h3>Мало туристов</h3>
+          <h3 class="advantages_list_item_title">Мало туристов</h3>
 
-          <p>— №5 —</p>
-          <p>Большинство едет в Гранд Каньон и толпится там!</p>
+          <p class="advantages_list_item_num">— №5 —</p>
+          <p class="advantages_list_item_text">Большинство едет в Гранд Каньон и толпится там!</p>
 
         </li>
-      </ul>
+      </ol>
 
     </section>
 
@@ -178,7 +182,7 @@
 
       <p class="main_hotel_text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
-      <a href="#" class="main_hotel_search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+      <a href="/catalog.html" class="main_hotel_search">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
     </section>
 
     <section class="main_subscribe">
@@ -187,8 +191,8 @@
 
       <p class="main_subscribe_text">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
-      <form action="" class="main_subscribe_form">
-        <input type="email" name="email" id="" class="main_subscribe_input">
+      <form action="https://echo.htmlacademy.ru/" method="post" class="main_subscribe_form">
+        <input type="email" name="email" id="" class="main_subscribe_input" placeholder="Ваш e-mail">
         <button class="main_subscribe_button">ПОДПИСАТЬСЯ</button>
       </form>
     </section>
@@ -200,21 +204,24 @@
         <a href="#" class="main-footer_list_twitter">
           <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M11.6 0.200056C13.4 -0.299944 14.8 0.500056 15.4 1.40006C16.1 1.20006 16.8 0.900056 17.5 0.700056C17.5 1.60006 16.9 2.20006 16.6 2.50006C17.3 2.60006 18 1.90006 18 1.90006C17.8 2.90006 16.9 3.70006 16.3 3.90006C16.1 10.7001 13 15.1001 5.7 15.0001C5.1 15.0001 5.8 15.0001 5.2 15.0001C4.8 15.0001 0.8 14.5001 0 13.1001C2.4 13.3001 4.1 12.7001 5 11.9001C4 11.6001 2.1 11.5001 1.8 9.00006C2.2 9.10006 2.4 9.20006 3.1 9.10006C1.8 8.30006 0.4 7.50006 0.5 5.30006C0.8 5.60006 1.6 5.80006 1.9 5.80006C1.1 5.60006 -0.2 2.50006 0.9 0.900056C2.8 2.80006 4.9 4.50006 8.5 4.70006C8.7 2.30006 9.7 0.800056 11.6 0.200056Z" fill="#83B3D3"/>
-          </svg>  
+          </svg>
+          <span class="visually-hidden">twitter</span>
         </a>
       </li>
       <li>
         <a href="#" class="main-footer_list_facebook">
           <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 0C4.8 0 3 1.8 3 4V6H0V10H3V18H7V10H10V6H7V4H10V0H7Z" fill="#83B3D3"/>
-          </svg> 
+          </svg>
+          <span class="visually-hidden">facebook</span> 
         </a>
       </li>
       <li>
         <a href="#" class="main-footer_list_youtube">
           <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M17 0H2.9C1.2 0 0 1.5 0 3.2V12.7C0 14.5 1.2 16 2.9 16H17.2C18.7 16 20.1 14.5 20.1 12.8V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8L7 11.8Z" fill="#83B3D3"/>
-          </svg>            
+          </svg>
+          <span class="visually-hidden">youtube</span>
         </a>
       </li>
     </ul>
