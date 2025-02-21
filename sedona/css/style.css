@@ -1,0 +1,24 @@
+.first-screen_vector {
+  width: 1200px;
+  height: 485px;
+  background: url('/images/main-img.jpg') no-repeat;
+}
+
+.first-screen_vector-botton {
+  width: 1200px;
+  height: 57px;
+  background: url('/images/divider.svg') no-repeat;
+}
+
+
+.main_subscribe {
+  width: 1200px;
+  height: 411px;
+  background: url('/images/subscribe.jpg') no-repeat;
+}
+
+.main-filter {
+  width: 1200px;
+  height: 408px;
+  background: url('/images/filter-background1.jpg') no-repeat;
+}
