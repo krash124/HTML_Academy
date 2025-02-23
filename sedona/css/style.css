@@ -1,24 +1,51 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("PT Sans"), url("/fonts/PTSans-Regular.woff2") format("woff2"),
+    url("/fonts/PTSans-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("PT Sans"), url("/fonts/PTSans-Bold.woff2") format("woff2"),
+    url("/fonts/PTSans-Bold.woff") format("woff");
+}
+
+body {
+  font-family: "PT Sans", "Arial", sans-serif;
+}
+
+a {text-decoration: none;}
+
+.nav-txt {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+
 .first-screen_vector {
   width: 1200px;
   height: 485px;
-  background: url('/images/main-img.jpg') no-repeat;
+  background: url("/images/main-img.jpg") no-repeat;
 }
 
 .first-screen_vector-botton {
   width: 1200px;
   height: 57px;
-  background: url('/images/divider.svg') no-repeat;
+  background: url("/images/divider.svg") no-repeat;
 }
 
-
-.main_subscribe {
+.subscribe {
   width: 1200px;
   height: 411px;
-  background: url('/images/subscribe.jpg') no-repeat;
+  background: url("/images/subscribe.jpg") no-repeat;
 }
 
-.main-filter {
-  width: 1200px;
-  height: 408px;
-  background: url('/images/filter-background1.jpg') no-repeat;
+.filter {
+  min-width: 1200px;
+  min-height: 408px;
+  background: url("/images/filter-background1.jpg") no-repeat;
 }
